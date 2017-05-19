@@ -1,0 +1,100 @@
+body {
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-color: black;
+	font-family: Helvetica, sans-serif;
+}
+
+a {
+	color: white;
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+	font-size: 200px;
+	text-align: center;
+	transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	transition-duration: 0.4s;
+	-webkit-transition: 0.4s;
+}
+
+a:hover {
+	color: #EC1717;
+}
+
+p, h1, h2 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+.link {
+	color: white;
+	font-family: BebasNeue, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 45px;
+	text-align: center;
+	transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	transition-duration: 0.4s;
+	-webkit-transition: 0.4s;
+}
+
+.link:hover {
+	color: black;
+}
+
+@font-face {
+	font-family: BebasNeue;
+	src: url(BebasNeue.otf);
+}
+
+#header {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: BebasNeue, Helvetica, sans-serif;
+	font-size: 45px;
+	font-style: normal;
+	background-color: #EC1717;
+	width: 400px;
+	height: 100px;
+}
+
+#linkhead {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: BebasNeue, Helvetica, sans-serif;
+	font-size: 45px;
+	font-style: normal;
+	background-color: #EC1717;
+	width: 700px;
+	height: 100px;
+}
+
+#smalllink {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: BebasNeue, Helvetica, sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	background-color: #EC1717;
+	width: 140px;
+	height: 50px;
+}
+
+#buttons {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
